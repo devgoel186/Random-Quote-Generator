@@ -1,0 +1,48 @@
+html, body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 125%;
+  font-family: 'Rubik', sans-serif;
+}
+body, .topelem{
+  padding: 30px;
+}
+.container{
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 20px;
+}
+.topelem{
+  margin-bottom: 20%;
+}
+#tweet-quote{
+  text-decoration: none;
+}
+#author{
+  font-size: 60%;
+}
+@media all and (min-width: 768px)
+{
+  #new-quote {
+    float: right;
+  }
+  #tweet-quote{
+    float: left;
+    text-decoration: none;
+  }
+}
+.footer{
+  position: fixed;
+  bottom: 0px;
+  z-index: -1;
+  max-width: 60%;
+  max-height: 5%;
+  font-size: 50%;
+}
+.footerelem{
+  padding: 2px;
+}
